@@ -179,6 +179,17 @@ def q11():
 #• Se é menor de idade
 #• Se é maior de 65 anos
 
+def q12():
+    idade = int(input("Digite uma idade: "))
+    if idade <= 18:
+        print (f"Essa idade {idade} é menor de idade.")
+    elif idade < 65:
+        print (f"Essa idade {idade} é maior de idade.")
+    else:
+        print ("Essa pessoa é idosa")
+
+q12()
+
 #13. Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota
 #da prova 2 de um aluno. O programa deve imprimir o nome, a nota da prova 1,
 #a nota da prova 2, a média das notas e uma das mensagens: "Aprovado",
